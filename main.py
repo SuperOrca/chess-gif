@@ -29,9 +29,8 @@ def generate_gifs(
         if game is None:
             break
 
-        board_positions = []
         board = game.board()
-        board_positions.append(board.copy())
+        board_positions = [board.copy()]
         for move in game.mainline_moves():
             board.push(move)
             board_positions.append(board.copy())
