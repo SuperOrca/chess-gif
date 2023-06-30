@@ -2,12 +2,14 @@
 
 A simple program that generates a gif of a chess game given a pgn file.
 
-## Kasparov vs. Topalov, Wijk aan Zee 1999
+## WR Chess Masters TB 2023
 
 [PGN File](game.pgn)
 
-Generated GIF:
 ![Chess GIF](output/game1.gif)
+![Chess GIF](output/game2.gif)
+![Chess GIF](output/game3.gif)
+![Chess GIF](output/game4.gif)
 
 ## License
 [MIT](LICENSE)
